@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "indexify-hello-world"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Boudreau <boudreau.benjamin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.52.0"
+indexify = "^0.2.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
